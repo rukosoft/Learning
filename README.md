@@ -1,6 +1,5 @@
-bootplate
+Enyo Learning Project
 =========
 
-Application template for packaged Enyo
+Based on application template for packaged Enyo
 
-Refer to the [Wiki](https://github.com/enyojs/enyo/wiki/Bootplate) for how to get started.

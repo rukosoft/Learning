@@ -1,0 +1,10 @@
+{
+	"id": "com.rukosoft.enyo.learning",
+	"version": "1.0.0",
+	"vendor": "rukosoft",
+	"type": "web",
+	"main": "index.html",
+	"title": "Enyo Learning Project",
+	"icon": "icon.png",
+	"uiRevision": 2
+}
