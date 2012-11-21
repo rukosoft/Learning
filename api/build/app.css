@@ -80,7 +80,7 @@
 .enyo-list-port {
 	overflow: hidden;
 	position: relative;
-	height: 10000000px;
+	height: 1000000px;
 }
 
 .enyo-list-page {
@@ -615,7 +615,7 @@
 	outline: none;
 	cursor: pointer;
 	background-color: transparent;
-	font-size: 16px;
+	font-size: 120%;
 	box-shadow: none;
 	/* FIXME: hack for styling reset on Android */
 	/* -webkit-appearance: caret;*/
@@ -629,29 +629,33 @@
 }
 
 #app_left {
-	width: 300px;
+	width: 350px;
 	border: 1px solid orange;
 }
 
 #app_left_tabs {
 	background: #eee;
+	font-size: 120%;
 }
 
 #app_kinds {
 	padding: 8px;
+	font-size: 140%;
 }
 
 #app_index {
 	padding: 8px;
-	font-size: smaller;
+	font-size: 120%;
 }
 
 #app_modules {
 	padding: 8px;
+	font-size: 140%;
 }
 
 #app_packages {
 	padding: 8px;
+	font-size: 140%;
 }
 
 #app_doc {
@@ -767,7 +771,7 @@ published {
 }
 
 kind {
-	font-size: x-large;
+	font-size: 130%;
 	font-weight: bold;
 	display: block;
 }
@@ -775,9 +779,15 @@ kind {
 package {
 	color: black; 
 	background-color: #B0E0E6; 
-	font-size: 10pt; 
+	font-size: 90%; 
 	padding: 3pt;
 	float: right;
+}
+
+moduleName {
+	font-size: 130%;
+	font-weight: bold;
+	display: block;
 }
 
 superkind {
@@ -820,7 +830,7 @@ column {
 divider {
 	display: block;
 	color: #0D0D0D;
-	font-size: 18px;
+	font-size: 120%;
 	font-weight: bold;
 	margin-left: -1px;
 	margin-top: 1em;
